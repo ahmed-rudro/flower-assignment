@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#header {
+  background-color: rgba(229, 84, 115, 0.1);
+  padding-top: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#header-description {
+  width: 50%;
+}
+#header-description h1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+#header-description p {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+#header-description {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+button {
+  padding: 13px 20px;
+  border-radius: 8px;
+  background: #e55473;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+/* #header-flower{
+    width: 50%;
+    margin: auto;
+    margin-left: 200px;
+
+} */
+.header-2 {
+  background-color: rgba(228, 127, 149, 0.1);
+}
+.header-totel {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-totel div {
+  gap: 30px;
+}
+
+.photo {
+  margin-left: 80px;
+}
+.text {
+  text-align: center;
+  width: 45%;
+  padding: 20px;
+}
+
+.text h1 {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+.text-color {
+  color: #e55473;
+}
+
+.text p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.flower {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.flower img{
+    width: 280px;
+    margin: 10px;
+}
+
+.text-2{
+    text-align: center;
+    margin: 50px;
+}
+
+.text-2 h2{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+
+.input-section{
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    width: 79%;
+    margin: 80px auto;
+    height: 250px;
+    text-align: center;
+     border-radius: 10px;
+
+}
+
+input{
+    padding: 12px;
+    border: none;
+    border-radius:5px ;
+    width: 30%;
+}
+
+ 
+.input-title{
+    padding-top:50px ;
+    padding-bottom: 40px;
+
+}
+
+form {
+    padding-bottom: 100px;
+}
+
+.rounded-img{
+    margin: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.rounded-img p {
+    margin-bottom: -25px;
+    text-decoration: underline;
+}
+
+.rounded1{
+    background: #e1dcdd;
+    
+}
+.rounded2{
+    background: rgb(226, 239, 226);
+
+}
+.rounded3{
+    background: rgb(237, 230, 230);
+
+}
+
+.rounded-img img{
+     width: 90%;
+     margin: auto;
+     height: 250px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    margin:none;
+    padding: 30px;
+
+}
+.small{
+    font-size: smaller;
+    color: rgb(47, 46, 46);
+    
+}
